@@ -1,0 +1,20 @@
+# 构建产物
+/ilinkgo
+/dist/
+
+# 本地状态（凭证、contextToken、游标）；默认在 ~/.ilinkgo，仅在项目内调试时会出现
+.data/
+
+# 测试与覆盖率
+*.test
+*.out
+coverage.*
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
+
+# 环境变量
+.env
+.env.local
